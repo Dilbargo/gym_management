@@ -12,4 +12,5 @@ import java.util.List;
 public interface DilbarWorkoutRepository extends JpaRepository<DilbarWorkout, Long> {
     List<DilbarWorkout> findByTrainerId(Long trainerId);
     Page<DilbarWorkout> findByTitleContainingIgnoreCase(String title, Pageable pageable);
+    Page<DilbarWorkout> findByTrainerId(Long trainerId, Pageable pageable);
 }
