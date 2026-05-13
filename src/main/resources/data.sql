@@ -30,5 +30,7 @@ INSERT INTO schedules (day_of_week, start_time, end_time, workout_id, trainer_id
                                                                                       ('WEDNESDAY', '08:00:00', '09:00:00', 1, 1),
                                                                                       ('TUESDAY', '10:00:00', '11:30:00', 2, 2),
                                                                                       ('THURSDAY', '10:00:00', '11:30:00', 2, 2),
--- password: password                                                                            ('MONDAY', '18:00:00', '19:15:00', 3, 3),
+                                                                          ('MONDAY', '18:00:00', '19:15:00', 3, 3),
                                                                                       ('FRIDAY', '18:00:00', '19:15:00', 3, 3);
+
+-- password: password
